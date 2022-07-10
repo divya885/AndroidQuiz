@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEDEE"
+    tools:context=".StartQuiz">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="37dp"
+        android:background="#FFEB3B"
+        android:freezesText="true"
+        android:text="  Score is : 0"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-51dp"
+        android:background="#ABD1EF"
+        android:freezesText="true"
+        android:text="  Question is : 1/x"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_difficulty"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-107dp"
+        android:background="#ABD1EF"
+        android:freezesText="true"
+        android:text="  Difficulty : "
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radio_group"
+        android:layout_below="@+id/text_view_difficulty"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="219dp"
+        android:background="#E1A9BC"
+        android:freezesText="true"
+        android:text="Here will be the question text\nHere will be the question text\nHere will be the question text"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:layout_marginBottom="133dp">
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:layout_marginBottom="36dp"
+        android:background="#F4FF81"
+        android:freezesText="true"
+        android:text="Confirm"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="-110dp"
+        android:freezesText="true"
+        android:minHeight="48dp"
+        android:text="Option 1"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <RadioButton
+        android:id="@+id/option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="457dp"
+        android:layout_marginEnd="119dp"
+        android:freezesText="true"
+        android:minHeight="48dp"
+        android:text="Option 2"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <RadioButton
+        android:id="@+id/option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="507dp"
+        android:layout_marginEnd="89dp"
+        android:freezesText="true"
+        android:minHeight="48dp"
+        android:text="Option 3"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <RadioButton
+        android:id="@+id/option4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="124dp"
+        android:freezesText="true"
+        android:minHeight="48dp"
+        android:text="Option 4"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

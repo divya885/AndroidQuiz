@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87C7D1"
+    tools:context=".signup">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="95dp"
+        android:background="#03A9F4"
+        android:text="Username"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="210dp"
+        android:layout_height="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="21dp"
+        android:background="#A7D1F3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/enter_your_name"
+        android:textAlignment="center"
+        android:textColor="#2323CC"
+        android:textSize="20sp"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="224dp"
+        android:background="#03A9F4"
+        android:text="Email_id"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="210dp"
+        android:layout_height="82dp"
+        android:layout_alignEnd="@+id/editText1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="211dp"
+        android:layout_marginEnd="-1dp"
+        android:autofillHints=""
+        android:background="#A7D1F3"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:text="Enter your Email id"
+        android:textAlignment="center"
+        android:textColor="#2323CC"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="355dp"
+        android:background="#03A9F4"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="210dp"
+        android:layout_height="82dp"
+        android:layout_alignEnd="@+id/editText1"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="346dp"
+        android:layout_marginEnd="-2dp"
+        android:autofillHints=""
+        android:background="#A7D1F3"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:text="Enter your Password"
+        android:textAlignment="center"
+        android:textColor="#2323CC"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="105dp"
+        android:layout_height="55dp"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="213dp"
+        android:background="#03A9F4"
+        android:text="Confirm Password"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="210dp"
+        android:layout_height="82dp"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignEnd="@+id/editText1"
+        android:layout_marginEnd="2dp"
+        android:background="#A7D1F3"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Enter your Password again"
+        android:textAlignment="center"
+        android:textColor="#2323CC"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="217dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="#ED5151"
+        android:text=" Register"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

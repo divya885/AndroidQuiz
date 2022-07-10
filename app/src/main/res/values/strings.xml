@@ -1,0 +1,16 @@
+
+<resources>
+<string name="app_name">Android QUIZ</string>
+    <string name="help_activity_textview">Help Activity TextView</string>
+    <string name="androidquiz">AndroidQUIZ</string>
+    <string name="start">Start</string>
+    <string name="help">Help</string>
+    <string name="contact">Contact</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string-array name="difficulty_level">
+    <item>Plz select a Difficulty Level</item>
+    <item>Easy</item>
+    <item>Medium</item>
+    <item>Hard</item>
+</string-array>
+</resources>
